@@ -7,6 +7,7 @@ from pyjarowinkler import distance
 # Download the stop words and lemmatization data
 nltk.download('stopwords')
 nltk.download('wordnet')
+nltk.download('punkt')
 
 # Define a list of profane words and their euphemisms
 profanity = {
@@ -169,7 +170,7 @@ leet = {
 }
 
 
-# Text Processing Funciton
+# Text Processing Function
 def process_text(text):
     newval = "new value"
     # Convert leet speak to regular text

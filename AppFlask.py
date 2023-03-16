@@ -1,7 +1,6 @@
 from flask import Flask, render_template
 from flask_socketio import SocketIO, send
-import leetconvert_module
-
+import processText
 
 app = Flask(__name__)
 app.config['SECRET'] = "secret!123"
@@ -15,7 +14,7 @@ socketio = SocketIO(app, cors_allowed_origins="*")
 #     return cleaned
 
 def handle_message(message):
-    cleaned = leetconvert_module.leet_conver(message)
+    cleaned = processText(message)
     print("Received message: " + cleaned)
     if message != "User connected":
         send(cleaned, broadcast=True)
