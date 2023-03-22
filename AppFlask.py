@@ -24,6 +24,9 @@ def handle_message(message):
 @app.route('/')
 def index():
     return render_template("index.html")
+@app.route('/signin')
+def sign():
+    return render_template("signin.html")
 
 if __name__ == "__main__":
     socketio.run(app, host="localhost")

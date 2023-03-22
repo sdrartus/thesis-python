@@ -26,14 +26,109 @@
 
 
 </script>
-    <div id ="messages" >
 
-    </div>
+
+<h2>Chat Messages</h2>
+<div class="container">
+  <img src="https://images.pexels.com/photos/2690323/pexels-photo-2690323.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Avatar" style="width:100%;">
+  <p>We have to present</p>
+  <span class="time-right">11:00</span>
+</div>
+
+<div class="container darker">
+  <img src="https://images.pexels.com/photos/1270076/pexels-photo-1270076.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Avatar" class="right " style="width:100%;">
+  <p>Yes, by 4pm</p>
+  <span class="time-left">11:01</span>
+</div>
+
+<div class="container">
+  <img src="https://images.pexels.com/photos/2690323/pexels-photo-2690323.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Avatar"class="circular--landscape">
+  <p>Shall we meet before that?</p>
+  <span class="time-right">11:02</span>
+</div>
+
+<div class="container darker" >
+  <img src="https://images.pexels.com/photos/1270076/pexels-photo-1270076.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Avatar" class="right" style="width:100%;" >
+
+  <p>Hmmm,, I think so</p>
+  <div id ="messages"></div>
+  <span class="time-left">11:05</span>
+</div>
+
+
 <input type="text" id="username" placeholder="Username" required>
-<input type="text" id="message" placeholder="Message" required>
-    <button id="sendBtn">Send</button>
-<br><br>
-<input type="radio" name="option" value="filter">: Filter Word <br>
-<input type="radio" name="option" value="no-filter">: Do not Filter Word <br>
+
+<input type="text" id="message" placeholder="Write your message..." required>
+    <button id="sendBtn">Send</button><br>
+	</div>
+</div>
+
+<!--<input type="button" onclick="signin.html" value="Click"/>-->
+<!--<br><br>-->
+<!--<input type="radio" name="option" value="filter">: Filter Word <br>-->
+<!--<input type="radio" name="option" value="no-filter">: Do not Filter Word <br>-->
 </body>
+
+
+
+<style>
+#username{
+display:none;
+    visibility:hidden;
+}
+ p {
+     text-align: center;
+    }
+body {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  max-width: 50px;
+  width: 50px;
+  height: 50px%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+}
+</style>
 </html>

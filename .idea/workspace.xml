@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cd4c9e19-003b-4bc7-a5b3-af4ed1b162d5" name="Default Changelist" comment="thesis - text manipulation">
+      <change afterPath="$PROJECT_DIR$/templates/signin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/thesis-python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/thesis-python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppFlask.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppFlask.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetconvert_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetconvert_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,13 +20,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MEQ6CDLyGDGTOTvJLSwOQYGGWs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -27,17 +38,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ToolWindowRun.ShowToolbar": "false",
+    "last_opened_file_path": "C:/Users/EJ/Downloads/thesis-python",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
   <component name="RunManager" selected="Python.AppFlask">
-    <configuration name="AppFlask" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="AppFlask" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="thesis-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,7 +67,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="cleaner" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="cleaner" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="thesis-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,9 +153,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.AppFlask" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.cleaner" />
         <item itemvalue="Python.processText" />
         <item itemvalue="Python.maximum-score" />
       </list>
@@ -168,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679471948227</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="thesis - text manipulation">
+      <created>1679472119094</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679472119094</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,11 +195,10 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="thesis - text manipulation" />
     <MESSAGE value="can filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="can filter" />
+    <MESSAGE value="thesis - text manipulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="thesis - text manipulation" />
   </component>
 </project>
