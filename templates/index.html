@@ -6,7 +6,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src ="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.1/socket.io.js"></script>
 </head>
-<body>
+<body style="text-align:center; font-family: Arial, serif; font-size: 14pt">
 <script type="text/javascript">
     $(document).ready(function() {
         var socket = io.connect("http://localhost:5000")
@@ -24,17 +24,16 @@
         })
     })
 
+
 </script>
-    <div id ="messages">
+    <div id ="messages" >
 
     </div>
- <span >Login Here Test</span>
-                        <input type="email" placeholder="email" />
-                        <input type="password" placeholder="password" />
-                        <button>Sign In</button>
-<div>
 <input type="text" id="username" placeholder="Username" required>
 <input type="text" id="message" placeholder="Message" required>
-    <button id="sendBtn">Send</button></div>
+    <button id="sendBtn">Send</button>
+<br><br>
+<input type="radio" name="option" value="filter">: Filter Word <br>
+<input type="radio" name="option" value="no-filter">: Do not Filter Word <br>
 </body>
 </html>
